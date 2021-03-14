@@ -1,0 +1,14 @@
+If you have a project <proj_name> directory that is not shared on Github, you can follow the instructions.
+Go to Github -> my rpofile -> repsitories -> new and create a new repository with the same name as the project on your home directory <proj_name>
+Go to Git Bash and set your directory to the project directory using 'cd' command
+
+The path is set to you project directory <.../proj_name>, use the following series of commands:
+    git init
+    git add .
+    git commit -m "Initial Commit"
+
+This should be followed by a series of commands given by Github to add the exiating repository:
+(Usually it is three commands that go as:
+    git remote add origin https://github.com/Somakdas87/<proj_name>.git
+    git branch -M main
+    git push -u origin main)
