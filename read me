@@ -8,7 +8,8 @@ The path is set to you project directory <.../proj_name>, use the following seri
     git commit -m "Initial Commit"
 
 This should be followed by a series of commands given by Github to add the exiating repository:
-(Usually it is three commands that go as:
+
+Usually it is three commands that go as:
     git remote add origin https://github.com/Somakdas87/<proj_name>.git
     git branch -M main
-    git push -u origin main)
+    git push -u origin main
